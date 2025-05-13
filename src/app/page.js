@@ -29,7 +29,8 @@ export default function Home() {
         Fuel For Developers 💻💾
       </h1>
       <div className="bg-white shadow-lg rounded-lg p-6 max-w-lg text-center">
-        <p className="text-xl italic text-gray-700">"{quote}"</p>
+        <p className="text-xl italic text-gray-700">&quot;{quote}&quot;</p>
+
       </div>
       <button
         onClick={getRandomQuote}
